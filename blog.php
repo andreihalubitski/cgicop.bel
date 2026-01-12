@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<?php include './partials/head.php' ?>
+
+<body>
+
+    <!-- start page-wrapper -->
+    <div class="page-wrapper">
+        <!-- start preloader -->
+        <?php include './partials/preloader.php' ?>
+        <!-- end preloader -->
+
+        <!--  cursor style -->
+        <div class="cursor"></div>
+        <div class="cursor2"></div>
+
+        <!-- Start header -->
+        <header id="header">
+            <?php include './partials/header-topbar.php' ?>
+            <?php include './partials/header-six.php' ?>
+        </header>
+        <!-- end of header -->
+
+        <!-- start wpo-page-title -->
+        <?php
+        $Title = 'Blog';
+        $MainTitle = 'Latest News Update';
+        ?>
+        <?php include './partials/page-header.php' ?>
+        <!-- end page-title -->
+
+        <!--===== start wpo-service-section =====-->
+        <section class="wpo-blog-pg-section section-padding pt-0">
+            <div class="container-fluid">
+                <div class="wpo-blog-wraper">
+                    <div class="wpo-blog-content">
+                        <div class="post format-standard-image scroll-text-animation" data-animation="fade_from_bottom">
+                            <div class="entry-media">
+                                <img src="assets/images/blog/1.jpg" alt>
+                            </div>
+                            <div class="entry-details">
+                                <div class="entry-meta">
+                                    <ul>
+                                        <li>By:<a href="#">admin </a> </li>
+                                        <li>Date: Sep 09, 2025</li>
+                                    </ul>
+                                </div>
+                                <h3><a href="blog-single.php">From Concept to Reality: The Journey of Designing a
+                                        Landmark</a>
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.</p>
+                                <a href="blog-single.php" class="read-more">Read More..</a>
+                            </div>
+                        </div>
+                        <div class="post format-gallery scroll-text-animation" data-animation="fade_from_bottom">
+                            <div class="entry-media post_slider">
+                                <div class="post-slider owl-carousel">
+                                    <img src="assets/images/blog/2.jpg" alt>
+                                    <img src="assets/images/blog/3.jpg" alt>
+                                </div>
+                            </div>
+
+                            <div class="entry-details">
+                                <div class="entry-meta">
+                                    <ul>
+                                        <li>By:<a href="#">admin </a> </li>
+                                        <li>Date: Sep 12, 2025</li>
+                                    </ul>
+                                </div>
+                                <h3><a href="blog-single.php">The Future of Design: How Sustainable Architecture
+                                        is Reshaping Our Cities</a>
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.</p>
+                                <a href="blog-single.php" class="read-more">Read More..</a>
+                            </div>
+                        </div>
+                        <div class="post format-standard-image scroll-text-animation" data-animation="fade_from_bottom">
+                            <div class="entry-details">
+                                <div class="entry-meta">
+                                    <ul>
+                                        <li>By:<a href="#">admin </a> </li>
+                                        <li>Date: Sep 15, 2025</li>
+                                    </ul>
+                                </div>
+                                <h3><a href="blog-single.php">Exploring Biophilic Design: Merging Nature with Urban
+                                        Living</a>
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.</p>
+                                <a href="blog-single.php" class="read-more">Read More..</a>
+                            </div>
+                        </div>
+                        <div class="post format-video scroll-text-animation" data-animation="fade_from_bottom">
+                            <div class="entry-media video-holder">
+                                <img src="assets/images/blog/3.jpg" alt>
+                                <a href="https://www.youtube.com/embed//uySn1BZiWWs?si=XcM3FYqzlXkJaB0v"
+                                    class="video-btn" data-type="iframe">
+                                    <svg width="25" height="28" viewBox="0 0 25 28" fill="none">
+                                        <path
+                                            d="M22.5 9.66987C25.8333 11.5944 25.8333 16.4056 22.5 18.3301L7.5 26.9904C4.16667 28.9149 -1.42102e-06 26.5093 -1.25278e-06 22.6603L-4.95676e-07 5.33975C-3.27431e-07 1.49075 4.16667 -0.914884 7.5 1.00962L22.5 9.66987Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a>
+
+                            </div>
+                            <div class="entry-details">
+                                <div class="entry-meta">
+                                    <ul>
+                                        <li>By:<a href="#">admin </a> </li>
+                                        <li>Date: Sep 15, 2025</li>
+                                    </ul>
+                                </div>
+                                <h3><a href="blog-single.php">Exploring Biophilic Design: Merging Nature with Urban
+                                        Living</a>
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.</p>
+                                <a href="blog-single.php" class="read-more">Read More..</a>
+                            </div>
+                        </div>
+                        <div class="pagination-wrapper pagination-wrapper-left scroll-text-animation"
+                            data-animation="fade_from_bottom">
+                            <ul class="pg-pagination">
+                                <li>
+                                    <a href="#" aria-label="Previous" class="d-none">
+                                        <i class="fi ti-angle-left"></i>
+                                    </a>
+                                </li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li>
+                                    <a href="#" aria-label="Next">
+                                        <i class="fi ti-arrow-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- start blog-sidebar -->
+                    <?php include './partials/blog-sidebar.php' ?>
+                </div>
+            </div>
+        </section>
+
+        <!-- start wpo-site-footer -->
+        <?php include './partials/footer.php' ?>
+        <!-- end wpo-site-footer -->
+
+    </div>
+    <!-- end of page-wrapper -->
+    <?php include './partials/script.php' ?>
+</body>
+
+</html>
